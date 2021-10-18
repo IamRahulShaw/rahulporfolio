@@ -5,7 +5,6 @@ const app = express();
 require("./database/connection");
 const cookieParser = require("cookie-parser");
 const router = require("./route/route");
-const path = require("path");
 
 const port = process.env.PORT || 5000;
 
