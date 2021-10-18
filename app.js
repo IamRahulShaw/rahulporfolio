@@ -21,15 +21,15 @@ app.use(express.json());
 app.use(cookieParser(process.env.SECRET_KEY));
 app.use(router);
 
-if (process.env.NODE_ENV === "production") {
-  app.use("/", express.static("frontend/build"));
-  app.use("/about", express.static("frontend/build"));
-  app.use("/feedback", express.static("frontend/build"));
-  app.use("/project", express.static("frontend/build"));
-  app.use("/login", express.static("frontend/build"));
-  app.use("/signup", express.static("frontend/build"));
-  app.use("*", express.static("frontend/build"));
-}
+// if (process.env.NODE_ENV === "production") {
+app.use("/", express.static("frontend/build"));
+app.use("/about", express.static("frontend/build"));
+app.use("/feedback", express.static("frontend/build"));
+app.use("/project", express.static("frontend/build"));
+app.use("/login", express.static("frontend/build"));
+app.use("/signup", express.static("frontend/build"));
+app.use("*", express.static("frontend/build"));
+// }
 
 app.listen(port, () => {
   console.log(`The app is running at port number ${port}`);
