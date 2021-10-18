@@ -1,0 +1,1358 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+html body #root .signupPage {
+  margin-bottom: 7rem;
+}
+
+html body #root .signupPage .leftSignupImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+html body #root .signupPage .leftSignupImage img {
+  -webkit-filter: drop-shadow(2px 4px 6px black);
+          filter: drop-shadow(2px 4px 6px black);
+  -webkit-animation: imgAnimation 4s ease-in-out infinite alternate;
+          animation: imgAnimation 4s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes imgAnimation {
+  from {
+    -webkit-transform: rotate(3deg) scale(0.9);
+            transform: rotate(3deg) scale(0.9);
+  }
+  to {
+    -webkit-transform: rotate(-3deg) scale(1);
+            transform: rotate(-3deg) scale(1);
+  }
+}
+
+@keyframes imgAnimation {
+  from {
+    -webkit-transform: rotate(3deg) scale(0.9);
+            transform: rotate(3deg) scale(0.9);
+  }
+  to {
+    -webkit-transform: rotate(-3deg) scale(1);
+            transform: rotate(-3deg) scale(1);
+  }
+}
+
+html body #root .signupPage .rightSignupForm .signupTextRow {
+  margin-bottom: 3rem;
+}
+
+html body #root .signupPage .rightSignupForm .signupTextRow .signupText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .signupPage .rightSignupForm .signupTextRow .signupText span {
+  font-size: 4.5rem;
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+  text-shadow: 1px 2px 3px wheat;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow {
+  border-radius: 6rem;
+  -webkit-box-shadow: 0px 6px 14px #8d8989;
+          box-shadow: 0px 6px 14px #8d8989;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol {
+  padding-top: 3rem !important;
+  padding-bottom: 1rem !important;
+  padding: 2rem;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .row {
+  background-color: white;
+  border-radius: 10rem;
+  height: 4rem;
+  margin-bottom: 1.5rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .row .col-2 {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .row .col-2 label {
+  margin-bottom: 0;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .row .col-2 label .iconify {
+  font-size: 2.8rem;
+  color: #604ad0;
+  -webkit-filter: drop-shadow(0px 4px 5px #fa7d67);
+          filter: drop-shadow(0px 4px 5px #fa7d67);
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .row .col-10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .row .col-10 input {
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .row .col-10 input.form-control {
+  width: 95%;
+  height: 90%;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .row .col-10 input.form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .row .col-10 input#phoneNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .buttonRow {
+  margin-bottom: 0;
+  margin-top: 3rem;
+  height: auto;
+  border-radius: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .buttonRow .col-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .buttonRow .col-4 .btn {
+  background-color: #fa72a0;
+  border-radius: 10rem;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  text-shadow: 1px 2px 2px black;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  width: 8rem;
+  height: 3.5rem;
+  -webkit-box-shadow: 0px 3px 3px #f3b952;
+          box-shadow: 0px 3px 3px #f3b952;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .buttonRow .col-4 .btn:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translate(0px, 2px);
+          transform: translate(0px, 2px);
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .formLastText {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .formLastText span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+  color: whitesmoke;
+}
+
+html body #root .signupPage .rightSignupForm .formInputRow .formInputCol .formInput .formLastText span #lastTextLogin a {
+  color: #fa72a0;
+}
+
+@media only screen and (max-width: 991px) {
+  html body #root .signupPage {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  html body #root .signupPage .signupPageRow {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  html body #root .signupPage .signupPageRow .leftSignupImage img {
+    width: 70%;
+  }
+  html body #root .signupPage .signupPageRow .rightSignupForm .formInputRow .formInputCol .formInput .row .col-2 label .iconify {
+    font-size: 2rem;
+  }
+  html body #root .signupPage .signupPageRow .rightSignupForm .formInputRow .formInputCol .formInput .row .col-10 input {
+    font-size: 1.2rem;
+  }
+}
+
+html body #root .loginPage {
+  margin-top: 5rem;
+  margin-bottom: 13rem;
+}
+
+html body #root .loginPage .leftLoginForm .loginTextRow {
+  margin-bottom: 3rem;
+}
+
+html body #root .loginPage .leftLoginForm .loginTextRow .loginText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .loginPage .leftLoginForm .loginTextRow .loginText span {
+  font-size: 4.5rem;
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+  text-shadow: 1px 2px 3px wheat;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow {
+  border-radius: 6rem;
+  -webkit-box-shadow: 0px 6px 14px #8d8989;
+          box-shadow: 0px 6px 14px #8d8989;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol {
+  padding-top: 4rem !important;
+  padding-bottom: 3rem !important;
+  padding: 2rem;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .row {
+  background-color: white;
+  border-radius: 10rem;
+  height: 4rem;
+  margin-bottom: 1.5rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .row .col-2 {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .row .col-2 label {
+  margin-bottom: 0;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .row .col-2 label .iconify {
+  font-size: 2.8rem;
+  color: #604ad0;
+  -webkit-filter: drop-shadow(0px 4px 5px #fa7d67);
+          filter: drop-shadow(0px 4px 5px #fa7d67);
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .row .col-10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .row .col-10 input {
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .row .col-10 input.form-control {
+  width: 95%;
+  height: 90%;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .row .col-10 input.form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .row .col-10 input#phoneNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .buttonRow {
+  margin-bottom: 0;
+  margin-top: 3rem;
+  height: auto;
+  border-radius: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .buttonRow .col-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .buttonRow .col-4 .btn {
+  background-color: #fa72a0;
+  border-radius: 10rem;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  text-shadow: 1px 2px 2px black;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  width: 8rem;
+  height: 3.5rem;
+  -webkit-box-shadow: 0px 3px 3px #f3b952;
+          box-shadow: 0px 3px 3px #f3b952;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .buttonRow .col-4 .btn:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translate(0px, 2px);
+          transform: translate(0px, 2px);
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .formLastText {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .formLastText span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+  color: whitesmoke;
+}
+
+html body #root .loginPage .leftLoginForm .formInputRow .formInputCol .formInput .formLastText span #lastTextSignup a {
+  color: #fa72a0;
+}
+
+html body #root .loginPage .rightLoginImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+html body #root .loginPage .rightLoginImage img {
+  -webkit-filter: drop-shadow(2px 4px 6px black);
+          filter: drop-shadow(2px 4px 6px black);
+  -webkit-animation: imgAnimation 4s ease-in-out infinite alternate;
+          animation: imgAnimation 4s ease-in-out infinite alternate;
+}
+
+@keyframes imgAnimation {
+  from {
+    -webkit-transform: rotate(3deg) scale(0.9);
+            transform: rotate(3deg) scale(0.9);
+  }
+  to {
+    -webkit-transform: rotate(-3deg) scale(1);
+            transform: rotate(-3deg) scale(1);
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  html body #root .loginPage {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  html body #root .loginPage .loginPageRow .rightLoginImage img {
+    width: 70%;
+  }
+  html body #root .loginPage .loginPageRow .leftLoginForm .formInputRow .formInputCol .formInput .row .col-2 label .iconify {
+    font-size: 2rem;
+  }
+  html body #root .loginPage .loginPageRow .leftLoginForm .formInputRow .formInputCol .formInput .row .col-10 input {
+    font-size: 1.2rem;
+  }
+}
+
+html body #root .feedbackContainer {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+html body #root .feedbackContainer .feedbackHeadTextRow {
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .feedbackContainer .feedbackHeadTextRow .feedbackHeadTextCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .feedbackContainer .feedbackHeadTextRow .feedbackHeadTextCol span {
+  font-size: 4.5rem;
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+  text-shadow: 1px 2px 3px wheat;
+}
+
+html body #root .feedbackContainer .feedbackMainTextRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+}
+
+html body #root .feedbackContainer .feedbackMainTextRow .feedbackMainTextCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .feedbackContainer .feedbackMainTextRow .feedbackMainTextCol p {
+  font-family: "Kaushan Script", cursive;
+  color: whitesmoke;
+  text-shadow: 2px 1px 3px black;
+  font-size: 2rem;
+  word-spacing: 0.7rem;
+  letter-spacing: 0.2rem;
+}
+
+html body #root .feedbackContainer .feedbackMainTextRow .feedbackMainTextCol p #buddyFeedback {
+  color: #ff4500;
+  word-break: break-word;
+}
+
+html body #root .feedbackContainer .feedbackMainTextRow .feedbackMainTextCol p img.feedbackMainTextGif {
+  -webkit-filter: drop-shadow(1px 2px 4px #dfdad3);
+          filter: drop-shadow(1px 2px 4px #dfdad3);
+  position: relative;
+  top: -1.2rem;
+}
+
+html body #root .feedbackContainer .feedbackFormRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .feedbackContainer .feedbackFormRow .feedbackFormCol {
+  padding-top: 4rem !important;
+  padding-bottom: 3rem !important;
+  padding: 2rem;
+  border-radius: 6rem;
+  -webkit-box-shadow: 0px 6px 14px #8d8989;
+          box-shadow: 0px 6px 14px #8d8989;
+}
+
+html body #root .feedbackContainer .feedbackFormRow .feedbackFormCol .feedbackForm .textareaRow .col-12 textarea {
+  border: 1px solid #373535;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+}
+
+html body #root .feedbackContainer .feedbackFormRow .feedbackFormCol .feedbackForm .textareaRow .col-12 textarea:focus {
+  border-color: #373535;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+html body #root .feedbackContainer .feedbackFormRow .feedbackFormCol .feedbackForm .buttonRow {
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .feedbackContainer .feedbackFormRow .feedbackFormCol .feedbackForm .buttonRow .col-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .feedbackContainer .feedbackFormRow .feedbackFormCol .feedbackForm .buttonRow .col-6 .btn {
+  background-color: #fa72a0;
+  border-radius: 10rem;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  text-shadow: 1px 2px 2px black;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  width: 9rem;
+  height: 3.5rem;
+  -webkit-box-shadow: 0px 3px 3px #f3b952;
+          box-shadow: 0px 3px 3px #f3b952;
+}
+
+html body #root .feedbackContainer .feedbackFormRow .feedbackFormCol .feedbackForm .buttonRow .col-6 .btn:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translate(0px, 2px);
+          transform: translate(0px, 2px);
+}
+
+html body #root .feedbackContainer .feedbackFormRow .feedbackFormCol .feedbackForm .feedbackFormLastText .col-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .feedbackContainer .feedbackFormRow .feedbackFormCol .feedbackForm .feedbackFormLastText .col-12 span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+  color: whitesmoke;
+}
+
+html body #root .feedbackContainer .feedbackFormRow .feedbackFormCol .feedbackForm .feedbackFormLastText .col-12 span #lastTextSignup a {
+  color: #fa72a0;
+}
+
+@media only screen and (max-width: 425px) {
+  html body #root .feedbackContainer .feedbackFormRow .feedbackFormCol .feedbackForm .textareaRow .col-12 textarea {
+    font-size: 1.4rem;
+  }
+}
+
+html body #root .projectContainer {
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+}
+
+html body #root .projectContainer .projectHeadRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+html body #root .projectContainer .projectHeadRow .projectHeadCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .projectContainer .projectHeadRow .projectHeadCol span {
+  font-size: 4.5rem;
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+  text-shadow: 1px 2px 3px wheat;
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol .card {
+  border-radius: 4rem;
+  -webkit-box-shadow: 0px 6px 14px #8d8989;
+          box-shadow: 0px 6px 14px #8d8989;
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol .card .card-img-top {
+  border-radius: 4rem;
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol .card .card-body .card-title {
+  font-family: "Merienda", cursive;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol .card .card-body .card-text {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.2rem;
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol .card .card-body .buttonRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol .card .card-body .buttonRow .buttonCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol .card .card-body .buttonRow .buttonCol .btn {
+  font-family: "Glory", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  letter-spacing: 0.1rem;
+  -webkit-box-shadow: 0px 4px 5px #a69b69;
+          box-shadow: 0px 4px 5px #a69b69;
+  color: white;
+  text-shadow: 1px 1px 4px black;
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol .card .card-body .buttonRow .buttonCol .btn:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translate(0px, 3px);
+          transform: translate(0px, 3px);
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol .card .card-body .buttonRow .buttonCol .btn .iconify {
+  margin-bottom: 0.2rem;
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol .card .card-body .buttonRow .buttonCol .github {
+  background-color: #515e6d;
+}
+
+html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol .card .card-body .buttonRow .buttonCol .demo {
+  background-color: #e72323;
+}
+
+@media only screen and (max-width: 991px) {
+  html body #root .projectContainer .projectMainRow .projectMainContainer .cardRow .cardCol {
+    margin-bottom: 4rem;
+  }
+}
+
+html body #root .aboutContainer {
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+}
+
+html body #root .aboutContainer .aboutHeadTextRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+html body #root .aboutContainer .aboutHeadTextRow .aboutHeadTextCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .aboutContainer .aboutHeadTextRow .aboutHeadTextCol span {
+  font-size: 4.5rem;
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+  text-shadow: 1px 2px 3px wheat;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer img.aboutMainTextGif {
+  -webkit-filter: drop-shadow(1px 2px 4px #dfdad3);
+          filter: drop-shadow(1px 2px 4px #dfdad3);
+  position: relative;
+  top: -0.5rem;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .topTextRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .topTextRow .topTextCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .topTextRow .topTextCol span {
+  font-family: "Kaushan Script", cursive;
+  color: whitesmoke;
+  text-shadow: 2px 1px 3px black;
+  font-size: 3rem;
+  word-spacing: 0.7rem;
+  letter-spacing: 0.2rem;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .topTextRow .topTextCol span #aboutBuddy {
+  color: #f42c2c;
+  word-break: break-word;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .mainTextRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .mainTextRow .mainTextCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .mainTextRow .mainTextCol p {
+  font-family: "Kaushan Script", cursive;
+  color: whitesmoke;
+  text-shadow: 2px 1px 3px black;
+  font-size: 2rem;
+  word-spacing: 0.7rem;
+  letter-spacing: 0.2rem;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .mainTextRow .mainTextCol p img.aboutMainTextGif {
+  width: 40px;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .mainTextRow .mainTextCol p span a {
+  text-shadow: 2px 1px 3px black;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .mainTextRow .mainTextCol p span a#githubTextLink {
+  color: #1f1e1e;
+  text-shadow: 2px 1px 3px #727b82;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .mainTextRow .mainTextCol p span a#facebook {
+  color: #1196f5;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .mainTextRow .mainTextCol p span a#instagram {
+  color: #e74071;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .mainTextRow .mainTextCol p span a#linkedin {
+  color: #26b19d;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .mainTextRow .mainTextCol p span a#github {
+  color: #1f1e1e;
+  text-shadow: 2px 1px 3px #727b82;
+}
+
+html body #root .aboutContainer .aboutMainTextRow .aboutMainTextContainer .mainTextRow .mainTextCol p span a .iconify {
+  margin-bottom: 0.5rem;
+}
+
+html body #root .outerErrorContainer {
+  height: 100vh;
+}
+
+html body #root .outerErrorContainer .errorContainer {
+  margin-top: 3rem;
+}
+
+html body #root .outerErrorContainer .errorContainer .errorRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root .outerErrorContainer .errorContainer .errorRow .errorCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: whitesmoke;
+}
+
+html body #root .outerErrorContainer .errorContainer .errorRow .errorCol h1#notFound {
+  font-family: "Merienda", cursive;
+}
+
+html body #root .outerErrorContainer .errorContainer .errorRow .errorCol h2.homeLink {
+  font-family: "Shadows Into Light", cursive;
+}
+
+html body #root .outerErrorContainer .errorContainer .errorRow .errorCol h2.homeLink a {
+  color: whitesmoke;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html body #root {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: url("../background/blurry-gradient-haikei.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html body #root div nav.bg-light {
+  opacity: 0;
+}
+
+html body #root div .navbar {
+  padding-top: 0;
+}
+
+html body #root div .navbar button.navbar-toggler:focus {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+html body #root div .navbar button i {
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  color: #ffa522;
+  font-size: 2.2rem;
+}
+
+html body #root div .navbar .toggle180deg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+html body #root div .navbar ul {
+  font-family: "Glory", sans-serif;
+}
+
+html body #root div .navbar ul li.nav-item {
+  margin-right: 3rem;
+}
+
+html body #root div .navbar ul li .nav-link {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #ffa07a;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
+  font-weight: bolder;
+}
+
+html body #root div .navbar ul li .nav-link:hover {
+  color: #ff7f50;
+}
+
+html body #root div .navbar ul li .nav-link.active {
+  color: #ff6347;
+}
+
+html body #root div .navbar ul li #logoutButton {
+  border: none;
+}
+
+html body #root footer#footer {
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+html body #root footer#footer span {
+  font-family: "Ubuntu", sans-serif;
+  color: #808c92;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+html body #root footer#footer span #footerName {
+  font-family: "Libre Baskerville", serif;
+  color: #c4c2c2;
+}
+
+html body #root div#homeMaindiv {
+  margin-top: 7rem;
+  margin-bottom: 15rem;
+}
+
+html body #root div#homeMaindiv .leftText {
+  font-family: "Shadows Into Light", cursive;
+  color: #ffa522;
+  font-weight: bold;
+}
+
+html body #root div#homeMaindiv .leftText .col {
+  text-align: center;
+}
+
+html body #root div#homeMaindiv .leftText #firstLine {
+  font-size: 6rem;
+}
+
+html body #root div#homeMaindiv .leftText #firstLine #buddy {
+  font-family: "Libre Baskerville", serif;
+  color: whitesmoke;
+  word-break: break-word;
+}
+
+html body #root div#homeMaindiv .leftText #secondLine {
+  font-size: 6rem;
+}
+
+html body #root div#homeMaindiv .leftText #secondLine #rahul {
+  font-family: "Merienda", cursive;
+  color: #ff4500;
+}
+
+html body #root div#homeMaindiv .leftText #thirdLine {
+  font-size: 4rem;
+}
+
+html body #root div#homeMaindiv .leftText #thirdLine #iam2 {
+  font-family: "Satisfy", cursive;
+  color: whitesmoke;
+}
+
+html body #root div#homeMaindiv .leftText #thirdLine .Typewriter {
+  color: #dc143c;
+  display: inline;
+}
+
+html body #root div#homeMaindiv .leftText #fourthLine span {
+  font-size: 1.8rem;
+  color: orangered;
+}
+
+html body #root div#homeMaindiv .leftText #fourthLine span a {
+  color: white;
+  font-size: 2rem;
+}
+
+html body #root div#homeMaindiv div.rightPhoto #imgOuterDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 100%;
+  z-index: 1;
+}
+
+html body #root div#homeMaindiv div.rightPhoto #imgOuterDiv svg.photo-svg {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.1;
+}
+
+html body #root div#homeMaindiv div.rightPhoto #imgOuterDiv #myPhoto {
+  border-radius: 150px 200px;
+  width: 70%;
+  -webkit-filter: drop-shadow(2px 9px 8px #99a3a4);
+          filter: drop-shadow(2px 9px 8px #99a3a4);
+}
+
+html body #root div#homeMaindiv div.rightPhoto #textLineImg {
+  margin-top: 1rem;
+}
+
+html body #root div#homeMaindiv div.rightPhoto #textLineImg .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #root div#homeMaindiv div.rightPhoto #textLineImg .col span {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffa522;
+}
+
+html body #root div#homeMaindiv div.rightPhoto #textLineImg .col span a {
+  color: white;
+  font-size: 2rem;
+}
+
+html body #root .logButton {
+  background-color: #ffa52247;
+  width: 7rem;
+  border-radius: 100px;
+  text-align: center;
+  color: white !important;
+  -webkit-box-shadow: 0px 2px 8px #ffa522;
+          box-shadow: 0px 2px 8px #ffa522;
+}
+
+html body #root .logButton:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translate(0px, 3px);
+          transform: translate(0px, 3px);
+}
+
+html body #root .hidden {
+  display: none !important;
+}
+
+html body #root .liveToastOuterPart {
+  width: 100%;
+  top: 8% !important;
+  left: 0 !important;
+  z-index: 10;
+}
+
+html body #root .liveToastOuterPart #liveToast {
+  background-color: #53606e;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  border: none;
+  font-family: "Merienda", cursive;
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4f5c6b;
+}
+
+@media only screen and (max-width: 991px) {
+  html body #root {
+    height: auto;
+  }
+  html body #root nav ul.responsive-navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body #root nav ul li.nav-item {
+    margin-right: 0rem !important;
+  }
+  html body #root nav ul li#signup {
+    margin-top: 3px;
+    margin-bottom: 15px;
+  }
+  html body #root nav ul li#logout {
+    margin-top: 3px;
+  }
+  html body #root div#homeMaindiv {
+    margin-bottom: 3rem;
+  }
+  html body #root div#homeMaindiv div.rightPhoto #imgOuterDiv #myPhoto {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  html body #root nav .navbar-brand img {
+    height: 3.5rem;
+  }
+  html body #root div#homeMaindiv .leftText #firstLine {
+    font-size: 4.5rem;
+  }
+  html body #root div#homeMaindiv .leftText #secondLine {
+    font-size: 4.5rem;
+  }
+  html body #root div#homeMaindiv .leftText #thirdLine {
+    font-size: 2.5rem;
+  }
+  html body #root div#homeMaindiv div.rightPhoto #imgOuterDiv #myPhoto {
+    width: 70%;
+  }
+  html body #root footer#footer span {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=app.css.map */

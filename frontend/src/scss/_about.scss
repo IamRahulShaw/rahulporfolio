@@ -1,0 +1,103 @@
+@mixin flexMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html {
+  body {
+    #root {
+      .aboutContainer {
+        margin-top: 3rem;
+        margin-bottom: 8rem;
+        .aboutHeadTextRow {
+          @include flexMiddle();
+          margin-bottom: 2.5rem;
+          .aboutHeadTextCol {
+            @include flexMiddle();
+            span {
+              font-size: 4.5rem;
+              font-family: "Satisfy", cursive;
+              font-weight: bold;
+              text-shadow: 1px 2px 3px wheat;
+            }
+          }
+        }
+        .aboutMainTextRow {
+          .aboutMainTextContainer {
+            img {
+              &.aboutMainTextGif {
+                filter: drop-shadow(1px 2px 4px #dfdad3);
+                position: relative;
+                top: -0.5rem;
+              }
+            }
+            .topTextRow {
+              @include flexMiddle();
+              margin-bottom: 2rem;
+              .topTextCol {
+                @include flexMiddle();
+                span {
+                  font-family: "Kaushan Script", cursive;
+                  color: whitesmoke;
+                  text-shadow: 2px 1px 3px black;
+                  font-size: 3rem;
+                  word-spacing: 0.7rem;
+                  letter-spacing: 0.2rem;
+                  #aboutBuddy {
+                    color: #f42c2c;
+                    word-break: break-word;
+                  }
+                }
+              }
+            }
+            .mainTextRow {
+              @include flexMiddle();
+              .mainTextCol {
+                @include flexMiddle();
+                flex-direction: column;
+                p {
+                  font-family: "Kaushan Script", cursive;
+                  color: whitesmoke;
+                  text-shadow: 2px 1px 3px black;
+                  font-size: 2rem;
+                  word-spacing: 0.7rem;
+                  letter-spacing: 0.2rem;
+                  img {
+                    &.aboutMainTextGif {
+                      width: 40px;
+                    }
+                  }
+                  span {
+                    a {
+                      text-shadow: 2px 1px 3px black;
+                      &#githubTextLink {
+                        color: #1f1e1e;
+                        text-shadow: 2px 1px 3px #727b82;
+                      }
+                      &#facebook {
+                        color: #1196f5;
+                      }
+                      &#instagram {
+                        color: #e74071;
+                      }
+                      &#linkedin {
+                        color: #26b19d;
+                      }
+                      &#github {
+                        color: #1f1e1e;
+                        text-shadow: 2px 1px 3px #727b82;
+                      }
+                      .iconify {
+                        margin-bottom: 0.5rem;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

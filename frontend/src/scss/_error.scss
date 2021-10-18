@@ -1,0 +1,34 @@
+@mixin flexMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html {
+  body {
+    #root {
+      .outerErrorContainer {
+        height: 100vh;
+        .errorContainer {
+          margin-top: 3rem;
+          .errorRow {
+            @include flexMiddle();
+            .errorCol {
+              @include flexMiddle();
+              flex-direction: column;
+              color: whitesmoke;
+              h1#notFound {
+                font-family: "Merienda", cursive;
+              }
+              h2.homeLink {
+                font-family: "Shadows Into Light", cursive;
+                a {
+                  color: whitesmoke;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

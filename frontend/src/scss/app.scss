@@ -1,0 +1,304 @@
+@import "googleFonts";
+@import "signup";
+@import "login";
+@import "feedback";
+@import "project";
+@import "about";
+@import "error";
+html {
+  font-size: 62.5%;
+  body {
+    #root {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-image: url("../background/blurry-gradient-haikei.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      div {
+        nav.bg-light {
+          opacity: 0;
+        }
+        .navbar {
+          padding-top: 0;
+          button {
+            &.navbar-toggler:focus {
+              outline: none;
+              border: none;
+              box-shadow: none;
+            }
+            i {
+              transition: all;
+              transition-duration: 0.5s;
+              transition-timing-function: ease-in-out;
+              color: #ffa522;
+              font-size: 2.2rem;
+            }
+          }
+          .toggle180deg {
+            transform: rotate(180deg);
+          }
+          ul {
+            // font-family: "Balsamiq Sans", cursive;
+            font-family: "Glory", sans-serif;
+            li {
+              &.nav-item {
+                margin-right: 3rem;
+              }
+              .nav-link {
+                text-decoration: none;
+                font-size: 1.7rem;
+                color: #ffa07a;
+                text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
+                font-weight: bolder;
+                &:hover {
+                  color: #ff7f50;
+                }
+                &.active {
+                  color: #ff6347;
+                }
+              }
+              #logoutButton {
+                border: none;
+              }
+            }
+          }
+        }
+      }
+      footer#footer {
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.1);
+        span {
+          font-family: "Ubuntu", sans-serif;
+          color: #808c92;
+          font-weight: bold;
+          font-size: 1.2rem;
+          #footerName {
+            font-family: "Libre Baskerville", serif;
+            color: #c4c2c2;
+          }
+        }
+      }
+      div#homeMaindiv {
+        margin-top: 7rem;
+        margin-bottom: 15rem;
+        .leftText {
+          font-family: "Shadows Into Light", cursive;
+          color: #ffa522;
+          font-weight: bold;
+          .col {
+            text-align: center;
+          }
+          #firstLine {
+            font-size: 6rem;
+            #buddy {
+              font-family: "Libre Baskerville", serif;
+              color: whitesmoke;
+              word-break: break-word;
+            }
+          }
+          #secondLine {
+            font-size: 6rem;
+            #rahul {
+              font-family: "Merienda", cursive;
+              color: #ff4500;
+            }
+          }
+          #thirdLine {
+            font-size: 4rem;
+            #iam2 {
+              font-family: "Satisfy", cursive;
+              color: whitesmoke;
+            }
+            .Typewriter {
+              color: #dc143c;
+              display: inline;
+            }
+          }
+          #fourthLine {
+            span {
+              font-size: 1.8rem;
+              color: orangered;
+              a {
+                color: white;
+                font-size: 2rem;
+              }
+            }
+          }
+        }
+        div.rightPhoto {
+          #imgOuterDiv {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            height: 100%;
+            z-index: 1;
+            svg {
+              &.photo-svg {
+                position: absolute;
+                width: 100%;
+                top: 0;
+                left: 0;
+                height: 100%;
+                z-index: -1;
+                opacity: 0.1;
+              }
+            }
+            #myPhoto {
+              border-radius: 150px 200px;
+              width: 70%;
+              filter: drop-shadow(2px 9px 8px #99a3a4);
+            }
+          }
+          #textLineImg {
+            margin-top: 1rem;
+            .col {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              span {
+                font-family: "Shadows Into Light", cursive;
+                font-size: 1.8rem;
+                font-weight: bold;
+                color: #ffa522;
+                a {
+                  color: white;
+                  font-size: 2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      .logButton {
+        background-color: #ffa52247;
+        width: 7rem;
+        border-radius: 100px;
+        text-align: center;
+        color: white !important;
+        box-shadow: 0px 2px 8px #ffa522;
+        &:hover {
+          box-shadow: none;
+          transform: translate(0px, 3px);
+        }
+      }
+      .hidden {
+        display: none !important;
+      }
+      .liveToastOuterPart {
+        width: 100%;
+        top: 8% !important;
+        left: 0 !important;
+        z-index: 10;
+        #liveToast {
+          background-color: #53606e;
+          color: whitesmoke;
+          font-size: 1.5rem;
+          border: none;
+          font-family: "Merienda", cursive;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4f5c6b;
+}
+
+@media only screen and (max-width: 991px) {
+  html {
+    body {
+      #root {
+        height: auto;
+        nav {
+          ul {
+            &.responsive-navbar {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+              align-items: center;
+            }
+            li {
+              &.nav-item {
+                margin-right: 0rem !important;
+              }
+              &#signup {
+                margin-top: 3px;
+                margin-bottom: 15px;
+              }
+              &#logout {
+                margin-top: 3px;
+              }
+            }
+          }
+        }
+        div#homeMaindiv {
+          margin-bottom: 3rem;
+          div.rightPhoto {
+            #imgOuterDiv {
+              #myPhoto {
+                width: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 425px) {
+  html {
+    body {
+      #root {
+        nav {
+          .navbar-brand {
+            img {
+              height: 3.5rem;
+            }
+          }
+        }
+        div#homeMaindiv {
+          .leftText {
+            #firstLine {
+              font-size: 4.5rem;
+            }
+            #secondLine {
+              font-size: 4.5rem;
+            }
+            #thirdLine {
+              font-size: 2.5rem;
+            }
+          }
+          div.rightPhoto {
+            #imgOuterDiv {
+              #myPhoto {
+                width: 70%;
+              }
+            }
+          }
+        }
+        footer#footer {
+          span {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
